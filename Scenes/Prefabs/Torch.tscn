@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://denyjrbed2bp4" path="res://Genres/2D Top Down/Scenes/Prefabs/Torch.cs" id="1_x4452"]
 [ext_resource type="Texture2D" uid="uid://d3ufw2farulq" path="res://Genres/2D Top Down/Sprites/light.png" id="2_kdhpf"]
-[ext_resource type="Texture2D" uid="uid://dxogq1g2maln2" path="res://Template/Sprites/UI/Icon.svg" id="3_l862g"]
+[ext_resource type="Texture2D" uid="uid://cpe8jvh2h4kdh" path="res://addons/Template/Sprites/UI/Icon.svg" id="3_l862g"]
 
 [node name="Torch" type="Node2D"]
 script = ExtResource("1_x4452")
