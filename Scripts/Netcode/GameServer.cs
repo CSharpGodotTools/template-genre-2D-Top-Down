@@ -7,9 +7,9 @@ using Template.Netcode.Server;
 
 namespace Template.TopDown2D;
 
-public partial class GameServer : ENetServer
+public class GameServer : ENetServer
 {
-    public Dictionary<uint, PlayerData> Players { get; set; } = [];
+    public Dictionary<uint, PlayerData> Players { get; } = [];
 
     public IEnumerable<KeyValuePair<uint, PlayerData>> GetOtherPlayers(uint excludeId)
     {

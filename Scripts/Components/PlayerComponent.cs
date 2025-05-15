@@ -7,7 +7,7 @@ public partial class PlayerComponent : EntityComponent
 {
     public override void TakeDamage(Vector2 direction = default)
     {
-        base.TakeDamage();
+        base.TakeDamage(direction);
 
         if (_entity is Player player)
         {

@@ -153,17 +153,17 @@ public partial class RoomTransitions : Node
     // Animates the camera and player during the transition
     private void AnimateCameraAndPlayer(Vector2I normal)
     {
-        double duration = 1;
+        const double duration = 1;
         Vector2 screenSize = GetViewport().GetVisibleRect().Size;
         Vector2 transitionOffset = screenSize * (normal * -1);
 
         new GTween(_playerCamera)
-            .SetAnimatingProp(Camera2D.PropertyName.Position)
+            .SetAnimatingProp(Node2D.PropertyName.Position)
             .AnimateProp(_playerCamera.Position + transitionOffset, duration)
             .TransExpo();
 
         new GTween(_player)
-            .SetAnimatingProp(Player.PropertyName.Position)
+            .SetAnimatingProp(Node2D.PropertyName.Position)
             .AnimateProp(_player.Position + new Vector2(150, 150) * (normal * -1), duration)
             .EaseIn()
             .Callback(FinalizeRoomTransition);

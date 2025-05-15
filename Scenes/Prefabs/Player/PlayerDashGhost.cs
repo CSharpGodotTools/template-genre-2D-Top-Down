@@ -19,10 +19,10 @@ public partial class PlayerDashGhost : Node2D
     {
         Name = nameof(PlayerDashGhost);
 
-        const double MODULATE_DURATION = 0.5;
+        const double modulateDuration = 0.5;
 
         new GTween(this)
-            .Animate(Node2D.PropertyName.Modulate, Colors.Transparent, MODULATE_DURATION).EaseOut()
+            .Animate(CanvasItem.PropertyName.Modulate, Colors.Transparent, modulateDuration).EaseOut()
             .Callback(QueueFree);
     }
 }

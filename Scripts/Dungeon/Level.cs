@@ -32,7 +32,7 @@ public partial class Level : Node
                 });
             };
 
-            client.OnDisconnected += opcode =>
+            client.OnDisconnected += _ =>
             {
                 // WARNING:
                 // Do not reset world here with Global.Servers.Get<SceneManager>().ResetCurrentScene()
@@ -58,10 +58,7 @@ public partial class Level : Node
                 _roomTransitions.Reset();
             };
 
-            Services.Get<UIPopupMenu>().OnMainMenuBtnPressed += () =>
-            {
-                client.Stop();
-            };
+            Services.Get<UIPopupMenu>().OnMainMenuBtnPressed += client.Stop;
         };
     }
 

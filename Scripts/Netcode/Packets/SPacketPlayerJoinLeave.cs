@@ -1,3 +1,4 @@
+// ReSharper disable RedundantCast (explicitly cast to help prevent human error when writing incorrect type)
 using Godot;
 using Template.Netcode;
 using Template.Netcode.Client;
