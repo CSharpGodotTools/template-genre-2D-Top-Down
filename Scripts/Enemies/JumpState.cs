@@ -1,7 +1,7 @@
 ﻿using Godot;
 using GodotUtils;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 [GlobalClass]
 public partial class JumpState : EnemyState

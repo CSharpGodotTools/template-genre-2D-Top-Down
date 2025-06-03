@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Template.Netcode;
-using Template.Netcode.Client;
+using __TEMPLATE__.Netcode;
+using __TEMPLATE__.Netcode.Client;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 /// <summary>
 /// The server has acknowledged this players connection. The server is informing

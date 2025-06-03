@@ -2,7 +2,7 @@ using Godot;
 using GodotUtils;
 using System.Collections.Generic;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 public partial class RoomTransitions : Node
 {

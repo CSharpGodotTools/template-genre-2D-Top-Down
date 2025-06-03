@@ -1,9 +1,9 @@
 // ReSharper disable RedundantCast (explicitly cast to help prevent human error when writing incorrect type)
 using Godot;
-using Template.Netcode;
-using Template.Netcode.Client;
+using __TEMPLATE__.Netcode;
+using __TEMPLATE__.Netcode.Client;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 /// <summary>
 /// A other player has joined or left the server.

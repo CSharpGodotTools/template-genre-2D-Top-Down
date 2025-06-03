@@ -2,7 +2,7 @@
 using GodotUtils;
 using System.Collections.Generic;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 [GlobalClass]
 public partial class SlideState : EnemyState

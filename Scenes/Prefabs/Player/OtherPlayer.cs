@@ -2,9 +2,9 @@ using Godot;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Template.Netcode;
+using __TEMPLATE__.Netcode;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 public partial class OtherPlayer : Node2D
 {

@@ -1,7 +1,7 @@
 using Godot;
-using Template.Netcode.Client;
+using __TEMPLATE__.Netcode.Client;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 [Visualize(nameof(Position))]
 [SceneTree]

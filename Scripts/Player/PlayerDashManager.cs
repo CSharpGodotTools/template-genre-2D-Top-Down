@@ -1,7 +1,7 @@
 ﻿using Godot;
 using GodotUtils;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 public class PlayerDashManager(PlayerConfig config, AnimatedSprite2D dashSprite)
 {

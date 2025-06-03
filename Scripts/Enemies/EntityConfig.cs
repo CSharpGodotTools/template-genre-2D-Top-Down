@@ -2,7 +2,7 @@ using Godot;
 using BlendMode = Godot.CanvasItemMaterial.BlendModeEnum;
 using LightMode = Godot.CanvasItemMaterial.LightModeEnum;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 [GlobalClass]
 public partial class EntityConfig : Resource

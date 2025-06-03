@@ -1,9 +1,9 @@
 using Godot;
 using GodotUtils;
 using System.Collections.Generic;
-using Template.UI;
+using __TEMPLATE__.UI;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 [Service]
 public partial class Level : Node

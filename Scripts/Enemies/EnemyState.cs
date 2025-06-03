@@ -1,7 +1,7 @@
 ﻿using Godot;
 using GodotUtils;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 /// <summary>
 /// This script assumes all enemies extend from RigidBody2D

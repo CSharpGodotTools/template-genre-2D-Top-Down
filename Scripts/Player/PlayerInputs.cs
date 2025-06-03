@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 [Icon(Images.GearIcon)]
 public partial class PlayerInputs : Node

@@ -1,6 +1,6 @@
 using Godot;
 
-namespace Template.TopDown2D;
+namespace __TEMPLATE__.TopDown2D;
 
 public partial class Frog : RigidBody2D
 {
